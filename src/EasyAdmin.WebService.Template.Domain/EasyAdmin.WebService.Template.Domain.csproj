@@ -8,7 +8,7 @@
     <Version>1.0.1</Version>
     <Authors>EasyAdmin</Authors>
     <Company>EasyAdmin</Company>
-    <RepositoryUrl>https://github.com/silviogarcez/EasyAdmin.WebService.Template.Domain</RepositoryUrl>
+    <RepositoryUrl>https://github.com/silviogarcez/EasyAdmin.WebService.Template</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 

@@ -31,4 +31,4 @@ jobs:
       - name: Publish NuGet package to GitHub Packages
         run: |
           cd src\EasyAdmin.WebService.Template.Domain\bin\Release
-          dotnet nuget push *.nupkg --source ${{ env.MAIN_REPOSITORY }} --api-key ${{ secrets.GITHUB_TOKEN }}
+          dotnet nuget push *.nupkg --source ${{ env.MAIN_REPOSITORY }} --api-key ${{ secrets.TOKEN }}

@@ -28,8 +28,7 @@ jobs:
       - name: Build the project
         run: dotnet build --configuration Release
 
-      - name: Pack the NuGet package
-        run: dotnet pack --configuration Release --no-build --output ./nupkg
-
       - name: Publish NuGet package to GitHub Packages
-        run: dotnet nuget push ./nupkg/*.nupkg --source ${{ env.MAIN_REPOSITORY }} --api-key ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd src\EasyAdmin.WebService.Template.Domain\bin\Release
+          dotnet nuget push *.nupkg --source ${{ env.MAIN_REPOSITORY }} --api-key ${{ secrets.GITHUB_TOKEN }}

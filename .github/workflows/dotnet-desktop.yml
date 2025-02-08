@@ -29,6 +29,6 @@ jobs:
         run: dotnet build --configuration Release -o out
 
       - name: Publish NuGet package to GitHub Packages
-        run: 
+        run: |
           cd out
           dotnet nuget push *.nupkg --source ${{ env.MAIN_REPOSITORY }} --api-key ${{ secrets.GITHUB_TOKEN }}

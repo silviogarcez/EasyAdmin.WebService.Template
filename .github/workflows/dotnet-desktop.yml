@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
     
 env:
-  MAIN_REPOSITORY: "https://nuget.pkg.github.com/silviogarcez/index.json
+  MAIN_REPOSITORY: "https://nuget.pkg.github.com/silviogarcez/index.json"
 
 jobs:
   publish:

@@ -1,0 +1,6 @@
+@EasyAdmin.WebService.Template_HostAddress = http://localhost:5034
+
+GET {{EasyAdmin.WebService.Template_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

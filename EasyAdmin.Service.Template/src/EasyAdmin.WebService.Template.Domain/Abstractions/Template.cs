@@ -8,7 +8,7 @@ namespace EasyAdmin.WebService.Template.Domain.Abstractions
 
         public void GetTemplate()
         {
-            //implement a method
+            //implement a method test
         }
     }
 }

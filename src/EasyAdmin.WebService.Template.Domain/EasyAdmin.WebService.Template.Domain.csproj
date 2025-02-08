@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>EasyAdmin.WebService.Template.Domain</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>EasyAdmin</Authors>
     <Company>EasyAdmin</Company>
     <RepositoryUrl>https://github.com/silviogarcez/EasyAdmin.WebService.Template</RepositoryUrl>

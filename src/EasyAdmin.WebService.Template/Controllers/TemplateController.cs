@@ -1,3 +1,4 @@
+using EasyAdmin.WebService.Template.Domain.Abstractions.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EasyAdmin.WebService.Template.Controllers
@@ -13,10 +14,10 @@ namespace EasyAdmin.WebService.Template.Controllers
             this.logger = logger;
         }
 
-        //[HttpGet(Name = "GetWeatherForecast")]
-        //public IEnumerable<ITemplate> Get()
-        //{
-
-        //}
+        [HttpGet]
+        public IEnumerable<ITemplateDomain> Get()
+        {
+            return Enumerable.Empty<ITemplateDomain>();
+        }
     }
 }

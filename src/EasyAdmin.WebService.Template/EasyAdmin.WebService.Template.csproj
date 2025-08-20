@@ -7,11 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <Compile Remove="Controllers\Abstractions\**" />
+    <Content Remove="Controllers\Abstractions\**" />
+    <EmbeddedResource Remove="Controllers\Abstractions\**" />
+    <None Remove="Controllers\Abstractions\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\Abstractions\Interfaces\" />
+    <PackageReference Include="EasyAdmin.Caching" Version="1.0.0" />
+    <PackageReference Include="EasyAdmin.Connection" Version="1.0.0" />
+    <PackageReference Include="EasyAdmin.Http" Version="1.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyAdmin.WebService.Template.Domain\EasyAdmin.WebService.Template.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,7 +2,7 @@
 
 namespace EasyAdmin.WebService.Template.Domain.Abstractions
 {
-    internal class Template : ITemplate
+    public class TemplateDomain : ITemplateDomain
     {
         public int Id { get; set; }
 

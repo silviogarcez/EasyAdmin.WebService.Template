@@ -1,6 +1,6 @@
 ﻿namespace EasyAdmin.WebService.Template.Domain.Abstractions.Interfaces
 {
-    public interface ITemplate
+    public interface ITemplateDomain
     {
         public int Id { get; set; }
 

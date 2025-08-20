@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EasyAdmin.Authenticator" Version="1.0.0" />
     <PackageReference Include="EasyAdmin.Caching" Version="1.0.0" />
     <PackageReference Include="EasyAdmin.Connection" Version="1.0.0" />
     <PackageReference Include="EasyAdmin.Http" Version="1.0.0" />

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace EasyAdmin.WebService.Template.Controllers
 {
     [ApiController]
+    //[Authorize]
     [Route("[controller]")]
     public class TemplateController : ControllerBase
     {
